@@ -1,4 +1,4 @@
-package simuduck;
+package strategypattern.simuduck;
 
 public class Squeak implements QuackBehavior{
 	@Override

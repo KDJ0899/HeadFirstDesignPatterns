@@ -1,4 +1,4 @@
-package simuduck;
+package strategypattern.simuduck;
 
 public class MuteQuack implements QuackBehavior {
 
