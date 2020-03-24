@@ -6,6 +6,12 @@ public class Main {
 		Duck mallard = new MallardDuck();
 		mallard.performFly();
 		mallard.performQuack();
+		
+		
+		DuckEnum duck = DuckEnum.Mallard;
+		
+		duck.performFly();
+		duck.performQuack();
 	}
 
 }
