@@ -1,4 +1,4 @@
-package strategypattern.simuduck;
+package strategy_pattern.simuduck;
 
 public enum DuckEnum {
 	Mallard(FlyBehaviorEnum.FlyWithWings,new Quack()),
@@ -20,4 +20,10 @@ public enum DuckEnum {
 		quackBehavior.quack();
 	}
 	
+	public void setFlyBehavior(FlyBehaviorEnum flyBehavior) {
+		this.flyBehavior = flyBehavior;
+	}
+	public void setQuackBehavior(QuackBehavior quackBehavior) {
+		this.quackBehavior = quackBehavior;
+	}
 }

@@ -1,4 +1,4 @@
-package strategypattern.simuduck;
+package strategy_pattern.simuduck;
 
 public class MallardDuck extends Duck {
 	

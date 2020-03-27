@@ -1,4 +1,4 @@
-package strategypattern.simuduck;
+package strategy_pattern.simuduck;
 
 public class Main {
 
@@ -12,6 +12,11 @@ public class Main {
 		
 		duck.performFly();
 		duck.performQuack();
+		
+		duck.setFlyBehavior(FlyBehaviorEnum.FlyNoWay);
+		duck.performFly();
+		
+		System.out.println(duck.name());
 	}
 
 }
