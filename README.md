@@ -1,6 +1,8 @@
 # HeadFirstDesignPatterns
 
-헤드퍼스트 디자인 패턴 예제 
+![headFirstDesignPatterns](headFirstDesignPatterns.jpg)
+
+헤드퍼스트 디자인 패턴
 
 * ### 스트래티지 패턴
   - [SimUDuck 연못 시뮬리에이션 게임 예제](https://github.com/KDJ0899/HeadFirstDesignPatterns/tree/master/src/strategy_pattern/simuduck)
