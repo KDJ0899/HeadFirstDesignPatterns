@@ -19,3 +19,6 @@
 
 * ### 싱글턴 패턴
   * [DOS프로젝트 아이템](https://github.com/KDJ0899/Project_DOS/tree/master/src/com/dos/item) 서브 클래스 ScreenBlock, Silence, SpeedUp에 적용.
+  
+* ### 커맨트 패턴
+  *[리모컨 예제](https://github.com/KDJ0899/HeadFirstDesignPatterns/tree/master/src/command_pattern)
